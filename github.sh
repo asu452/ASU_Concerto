@@ -6,6 +6,10 @@
 #
 # git@github.com:asu452/ASU_Concerto.git
 # https://github.com/asu452/ASU_Concerto.git
+#
+# This script depends on 
+#      /home/ubuntu/.ssh/id_dsa - SSH Key for github
+#      /home/ubuntu/github_backup/mysqlbackup.sh - mysqldump script with sql password
 
 
 # change to the github backup directory
@@ -18,8 +22,7 @@ git pull origin master
 # create a mysql backup of the concerto DB
 /home/ubuntu/github_backup/mysqlbackup.sh
 
-# copy all of the website to the backup directory for git to store in the repository
-#cp -R /var/www /home/ubuntu/github_backup
+# sync all of the website to the backup directory for git to store in the repository
 rsync -r /var/www /home/ubuntu/github_backup
 
 # add all of the files to check against the repository
