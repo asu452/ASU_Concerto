@@ -311,7 +311,7 @@ Dynamic Status: Unable to open dynamic path (http://www.facebook.com/feeds/page.
             [content] => 
             [feed_set] => 1
             [set] => 1
-            [curtime] => 2012-06-28 03:23:01
+            [curtime] => 2012-06-28 03:24:01
         )
 
     [description] => Facebook
