@@ -16,7 +16,7 @@ git checkout master
 git pull origin master
 
 # create a mysql backup of the concerto DB
-/home/backup_scripts/mysqlbackup.sh
+/home/ubuntu/backup_scripts/mysqlbackup.sh
 
 # copy all of the website to the backup directory for git to store in the repository
 cp -R /var/www /home/ubuntu/github_backup
