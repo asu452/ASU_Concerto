@@ -1,5 +1,7 @@
 <?php
 /**
+ * test comment
+
  * This file was developed as part of the Concerto digital signage project
  * at RPI.
  *
