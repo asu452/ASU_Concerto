@@ -1,3 +1,6 @@
+test note to see if github is updating properly
+
+
 PHP Notice:  Undefined index: weekly in /var/www/concerto/common/scripts/cron.php on line 45
 PHP Notice:  Undefined index: nightly in /var/www/concerto/common/scripts/cron.php on line 49
 PHP Notice:  Undefined index: hourly in /var/www/concerto/common/scripts/cron.php on line 53
@@ -311,7 +314,7 @@ Dynamic Status: Unable to open dynamic path (http://www.facebook.com/feeds/page.
             [content] => 
             [feed_set] => 1
             [set] => 1
-            [curtime] => 2012-06-28 02:54:01
+            [curtime] => 2012-06-28 03:18:01
         )
 
     [description] => Facebook
