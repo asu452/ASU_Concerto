@@ -124,6 +124,8 @@ class Dynamic{
   
   //Get the XML content and pass it off to the xml handler
   function xml_update(){
+    // ****** added the follwing to fix facebook by setting the user agent to Internet Explorer
+    ini_set("user_agent","Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0)");
     if(($xml = simplexml_load_file($this->path)) && !is_bool($xml)){
       return $this->xml_handler($xml);
     } else {
