@@ -71,7 +71,7 @@ class Dynamic{
         $this->update_interval = $data['update_interval'];
         $this->last_update = $data['last_update'];
         $this->curtime = $data['curtime']; //Trust SQL only for the time!
-        
+
         if($feed_id != ''){
           $this->feed = new Feed($feed_id, false);  //The false is critical here!
           $this->feed_set = true;
